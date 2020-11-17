@@ -47,7 +47,7 @@ for (let i = 0; i < 10; i++) {
 }
 console.log(`Сгенерированный массив: ${array}`);
 
-let randomIndex = Math.floor(Math.random() * 10);
+let randomIndex = Math.floor(Math.random() * array.length);
 console.log(`Рандомный элемент: ${array[randomIndex]}`);
 
 let sum = 0, average;
