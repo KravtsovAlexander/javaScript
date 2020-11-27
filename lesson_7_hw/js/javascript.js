@@ -103,8 +103,8 @@ let books = [
      если такого автора нет, вернуть пустой массив.
 */
 console.log("Задача 3");
-function getBooks(author, arr) {
-    return arr.filter(book => book.author.toLowerCase() === author.toLowerCase());
+function getBooks(authorName, arr) {
+    return arr.filter(book => book.author.toLowerCase() === authorName.toLowerCase());
 }
 console.log(getBooks("Пушкин", books));
 console.log(getBooks("Пупкин", books));
