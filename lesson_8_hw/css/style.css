@@ -1,0 +1,87 @@
+body,
+h2, h4 {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.cat-cards-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid gray;
+    width: 550px;
+}
+
+.card,
+img {
+    border-radius: 10px;
+}
+
+h2 {
+    padding-left: 1rem;
+}
+
+.descriprion-container {
+    display: flex;
+}
+
+.image-container,
+.info {
+    flex: 1;
+    padding: 1rem;
+}
+
+.info p {
+    margin: 2rem 0;
+}
+.separator {
+    margin: 0 1rem;
+}
+
+table,
+td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 1rem;
+}
+
+td, th {
+    padding: 1rem;
+}
+
+.cell {
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.cell::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.cell-filler {
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+.field-section {
+    padding: 2rem;
+}
+
+.playing-field {
+    justify-content: center;
+}
+
