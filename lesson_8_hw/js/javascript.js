@@ -212,10 +212,7 @@ function generateField(n) {
         }
         playingField.append(col);
     }
-    let priseAtt = [];
-    for (let item in obj) {
-        priseAtt.push(item);
-    }
+    let priseAtt = Object.keys(obj);
     document.querySelector(".field-section").append(playingField);
     while (priseAtt.length > 0) {
         let randCell = document.getElementById(`${Math.floor(Math.random() * counter)}`);
