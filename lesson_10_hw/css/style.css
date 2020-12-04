@@ -1,0 +1,66 @@
+body {
+    font-size: 1.5rem;
+}
+
+.green-text {
+    background: forestgreen;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.article p:first-child {
+    background: lightgreen;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+.article p:last-child {
+    padding: 20px 10px;
+    display: none;
+}
+
+.article p:last-child.open {
+    display: block;
+}
+
+.cell {
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.cell-filler, img {
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+.empty {
+    background-color: white !important;
+}
+
+.field-section {
+    padding: 2rem;
+}
+
+.playing-field {
+    justify-content: center;
+}
+
+table,
+td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    cursor: pointer;
+}
+
+table {
+    margin: 1rem;
+}
+
+td, th {
+    padding: 1rem;
+}
