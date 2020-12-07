@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jsLesson11</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Задача 1</h1>
+    <form action="#" method="post" name="lesson">
+        <fieldset name="checkbox_fieldset">
+            <legend>Checkbox | Radio</legend>
+            <div>
+                <label><input type="checkbox">Отметьте, если хотите указать дополнительную информацию</label>
+                <input type="text" disabled>
+            </div>
+        </fieldset>
+    </form>
+    <h1>Задача 2</h1>
+    <section>
+        <article>
+            <h4>Lorem ipsum dolor sit.</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere modi voluptas illo corrupti voluptatem! Beatae reiciendis, excepturi nulla est ab architecto tempore officia magnam, at impedit doloremque aliquid, quidem vero</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere modi voluptas illo corrupti voluptatem! Beatae reiciendis, excepturi nulla est ab architecto tempore officia magnam, at impedit doloremque aliquid, quidem vero</p>
+        </article>
+        <div class="comments">
+            <div class="comment-card">
+                <p>Name</p>    
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore iure eligendi minus possimus provident in repellat aspernatur, dolor vitae alias, delectus quas doloribus illum modi eos veritatis distinctio maiores accusamus.</p>
+            </div>
+        </div>
+        <form action="#" method="POST" name="comment_form">
+            <fieldset class=comment-fieldset>
+                <legend>Добавить комментарий</legend>
+                <label>Имя:
+                    <input type="text" name="name" placeholder="Anonymous">
+                </label>
+                <label>Комментарий:
+                    <textarea name="comment_text" rows="5"></textarea>
+                    <span class="empty-tip">Нельзя добавить пустой комментарий!</span>
+                </label>
+                <input type="submit" value="Добавить">
+            </fieldset>
+        </form>
+    </section>
+    <h1>Задача 3</h1>
+    <section>
+        <form action="#" method="POST" name="books_form" class="books-form">
+            <fieldset id="books"></fieldset>
+        </form>
+    </section>
+
+    <script src="js/javascript.js"></script>
+</body>
+</html>
